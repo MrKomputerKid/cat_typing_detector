@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packages
+*.egg
+*.egg-info
+dist/
+build/
+
+# macOS
+*.DS_Store
+
+# Logs
+cat_typing_log.txt
+
+# Executables
+*.exe
+*.app
+*.dmg
+*.pkg
