@@ -3,6 +3,24 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Installer logs
+pip-log.txt
+
 # Packages
 *.egg
 *.egg-info
@@ -12,11 +30,41 @@ build/
 # macOS
 *.DS_Store
 
-# Logs
+# Log files
+*.log
 cat_typing_log.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+
+# PyInstaller
+# Usually these files are written by PyInstaller
+*.manifest
+*.spec
+
+# Pytest cache directory
+.pytest_cache/
+
+# Cython debug symbols
+cython_debug/
+
+# Jupyter Notebook
+.ipynb_checkpoints
 
 # Executables
 *.exe
 *.app
 *.dmg
 *.pkg
+*.deb
+*.rpm
