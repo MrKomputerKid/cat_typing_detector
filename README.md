@@ -26,7 +26,7 @@ The **Cat Typing Detector** is a fun Python app that automatically detects when 
 First, clone the repository and install the required dependencies:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/MrKomputerKid/cat_typing_detector
 cd CatTypingDetector
 pip install -r requirements.txt
 ```
